@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: jvm-build-suite-component-mnsr
+  namespace: jvm-build-lnhi-tenant
+spec:
+  replicas: 1
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/rh_ee_tnevrlka/test-images@sha256:11b17913c7b813e622f727f778c947e32019e8453fa928ff9fa795851baba84b
+        name: container-image
+        resources: {}
+status: {}
