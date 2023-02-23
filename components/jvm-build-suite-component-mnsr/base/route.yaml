@@ -8,7 +8,7 @@ metadata:
     app.kubernetes.io/managed-by: kustomize
     app.kubernetes.io/name: jvm-build-suite-component-mnsr
     app.kubernetes.io/part-of: jvm-build-suite-application-cutz
-  name: jvm-build-suite-componenttnqk
+  name: jvm-build-suite-componentz3ox
   namespace: jvm-build-lnhi-tenant
 spec:
   port:

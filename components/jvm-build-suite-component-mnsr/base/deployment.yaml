@@ -23,7 +23,7 @@ spec:
         app.kubernetes.io/instance: jvm-build-suite-component-mnsr
     spec:
       containers:
-      - image: quay.io/rh_ee_tnevrlka/test-images:6c3925379b7f4b5fb28a6edae715a726
+      - image: quay.io/rh_ee_tnevrlka/test-images@sha256:11b17913c7b813e622f727f778c947e32019e8453fa928ff9fa795851baba84b
         imagePullPolicy: Always
         livenessProbe:
           httpGet:
